@@ -234,7 +234,7 @@ if not dataframe.empty:
         #st.write('You selected:', functions[0])
         
 
-        if st.button('Say hello'):
+        if st.button('Run Experiment'):
             model = Sequential()
             # input layer + 1st hidden layer
             model.add(Dense(6, input_dim=13, activation='relu'))
